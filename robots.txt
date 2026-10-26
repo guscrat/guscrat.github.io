@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guscrat.github.io/sitemap.xml
