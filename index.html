@@ -2,9 +2,46 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<title>Missão em Cortes Publisher</title>
-<meta http-equiv="refresh" content="0; url=/missao-em-cortes/">
-<link rel="canonical" href="https://guscrat.github.io/missao-em-cortes/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gustavo — projetos</title>
+<meta name="description" content="Página pessoal do Gustavo, engenheiro de dados: projetos pessoais, incluindo o Missão em Cortes Publisher.">
+<link rel="canonical" href="https://guscrat.github.io/">
+<style>
+  :root { --bg: #FFFFFF; --texto: #0A0A0A; --suave: #555555; --linha: #E5E5E5; --destaque: #B8920E; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0A0A0A; --texto: #F2F2F2; --suave: #A0A0A0; --linha: #262626; --destaque: #F5C518; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--texto);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 64px 16px 48px; }
+  h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 16px; }
+  h2 { font-size: 1.1rem; margin: 40px 0 12px; color: var(--suave); font-weight: 600; }
+  p { margin: 0 0 16px; }
+  .projetos { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--linha); }
+  .projetos li { border-bottom: 1px solid var(--linha); }
+  .projetos a { display: block; padding: 16px 0; color: var(--texto); text-decoration: none; }
+  .projetos a:hover strong { color: var(--destaque); }
+  .projetos strong { display: block; }
+  .projetos span { color: var(--suave); }
+</style>
 </head>
-<body><a href="/missao-em-cortes/">Missão em Cortes Publisher</a></body>
+<body>
+<main>
+  <h1>Gustavo</h1>
+  <p>Engenheiro de dados com experiência no setor bancário. Trabalho com pipelines, Python e SQL,
+     e nas horas vagas construo automações como as abaixo.</p>
+
+  <h2>Projetos</h2>
+  <ul class="projetos">
+    <li>
+      <a href="https://guscrat.github.io/missao-em-cortes/">
+        <strong>Missão em Cortes →</strong>
+        <span>Pipeline em Python que transforma lives e entrevistas em cortes editados pro
+          canal Missão em Cortes no YouTube: transcrição, segmentação, montagem e publicação.</span>
+      </a>
+    </li>
+  </ul>
+</main>
+</body>
 </html>
